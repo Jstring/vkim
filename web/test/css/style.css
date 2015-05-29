@@ -1,0 +1,43 @@
+@font-face{
+    font-family:Noto Sans CJK Regular; src:url(font/NSKR400.woff);
+}
+body{
+    font-family:Helvetica Neue,Helvetica,Arial,"본고딕",sans-serif;
+    margin:0 auto;
+}
+
+#header{
+    position:relative;
+    background:#fff;
+}
+
+#logo{
+    float:left;
+}
+
+.menu{
+    float:right;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.menu div{
+    float:left;
+    padding:40px 20px 0 20px;
+}
+
+.menu div:hover{
+    color:rgb(63,210,176);
+}
+
+#container{
+    width:1280px;
+    padding-top:80px;
+}
+
+#outer_circle{
+    background-image:url(../images/outer_circle.svg);
+}
+
+#footer{
+}

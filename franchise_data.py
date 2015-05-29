@@ -24,10 +24,10 @@ for cat in range(len(category)):
 
 
     for fran in category.values()[cat]:
-        ae = quote(fran.encode('EUC-KR'))
+        insert_name = quote(fran.encode('EUC-KR'))
         Url1 = 'http://franchise.ftc.go.kr/fir/manage/searchFirList2.do?method=getSearchList&currpage=1&indus=&t_nm=&brd=' 
         Url2 = '&stdate=&enddate=&onelimit=10'
-        baseUrl = Url1 + ae + Url2
+        baseUrl = Url1 + insert_name + Url2
         html = urlopen(baseUrl)
         bs = BS(html)
 
